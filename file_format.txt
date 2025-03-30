@@ -1,0 +1,11 @@
+Addition to the Results File:
+The first line of the file indicates whether the game is running with features enabled (1) or without features (0).
+
+Defining Screen Completion:
+Reaching the end of the screen means successfully getting to Pauline.
+However, if you lose all your lives before the final screen, it will be considered as not completing the game, and an appropriate error message will be displayed.
+
+Error Handling in Load and Silent Mode:
+In loading mode, error messages are shown after running a screen, but only for screens with errors. Screens without errors run normally and proceed automatically to the next screen without messages.
+If multiple errors exist in the results file, only the first error is shown before moving to the next screen.
+In silent mode, only success or failure messages for each screen are displayed—no gameplay is shown.
