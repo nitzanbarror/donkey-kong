@@ -1,17 +1,17 @@
-id: 211602891
-id: 315467266
+Donkey Kong Console Game (C++ Project)
 
-Behavior During Mario's Free Fall:
-During Mario's free fall, we have implemented Option 3, based on a response in the course forum. 
-This means the fall continues Mario's previous movement along the X-axis,
-and the player can also control Mario’s movement left or right using the arrow keys until he lands on a surface.
-Link for the relevant question in the course forum:
-https://mama.mta.ac.il/mod/forum/discuss.php?d=2206
+This C++ console game is a recreation of the classic "Donkey Kong" arcade game. 
+The game is written using Object-Oriented Programming (OOP) principles. 
+The player controls Mario, who must avoid ghosts and barrels thrown by Donkey Kong, climb ladders, and rescue Pauline. It is built for Windows using Visual Studio, utilizing functions like gotoxy, _kbhit, _getch, and Sleep.
 
-Barrel Explosion:
-Based on a question from the course forum, we've decided that when a barrel reaches the edge of the screen, it should explode.
-Link for the relevant question in the course forum:
-https://mama.mta.ac.il/mod/forum/discuss.php?d=1923
+Game Highlights:
+Controls: a, d, w, x, s for movement of Mario, ESC to pause.
+Barrels & Donkey Kong: Donkey Kong throws barrels (O) that Mario must avoid.
+Ladders: Mario climbs ladders (H) to move between floors.
+Rescue Pauline: Reach Pauline ($) to win.
+Ghosts: Ghosts (x) move randomly and can harm Mario and some ghosts (X) can climb ladders.
+Hammer: Mario can use a hammer (p) to destroy barrels and ghosts.
+Save/Load: Save and load game states from text files.
+How to Run: Compile and run in Visual Studio. Use command-line arguments to save/load games.
 
-Filling a Frame:
-If we have an incomplete frame (marked as Q), we chose to complete it.
+This project demonstrates C++ usage for creating interactive console games with file handling and dynamic gameplay.
